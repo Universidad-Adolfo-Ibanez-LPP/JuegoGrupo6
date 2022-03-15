@@ -1,5 +1,5 @@
-def findeljuegobueno(): 
-   print('¡Ganaste! Encontraste el país oculto, felicitaciones')
+def findeljuegobueno(país): 
+   print(f'¡Ganaste! Encontraste el país oculto {país}, felicitaciones')
 
 def findeljuegomalo(país): 
   print(f'¡Perdiste! El país que debías encontrar era {país}')
