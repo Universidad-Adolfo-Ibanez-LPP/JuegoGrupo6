@@ -19,7 +19,7 @@ def juego():
 
 
     if ver == 1:
-        Findeljuego.findeljuegobueno()
+        Findeljuego.findeljuegobueno(pais)
         Findeljuego.contador(aciertos,errores)
         return (1)
 
@@ -38,7 +38,7 @@ def juego():
 while True:
     pais = paises.pais()
     largo = len(pais)
-    aciertos = [" "]
+    aciertos = []
     errores = []
     print(interfaz.guiones(pais,aciertos))
     while True:
@@ -46,4 +46,4 @@ while True:
         if (numero == -1) or (numero == 1):
             Findeljuego.volverajugar()
             break
-        
+             
