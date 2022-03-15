@@ -8,4 +8,4 @@ def volverajugar():
     return input ('Si deseas jugar de nuevo presiona ENTER: ')
 
 def contador(aciertos,errores):
-  return print(f"Te demoraste {len(aciertos) + len(errores) - 1} intentos")
+  return print(f"Te demoraste {len(aciertos) + len(errores)} intentos")
