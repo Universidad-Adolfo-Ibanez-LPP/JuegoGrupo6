@@ -10,6 +10,9 @@ for obj in data:
     if obj["subregion"] == "South America":
         paises.append(obj["translations"]["es"].lower())
 
+paises.remove("islas malvinas")
+paises.remove("guayana francesa")
+paises.remove("islas georgias del sur y sandwich del sur") #los borramos porque el espacio da problemas
 
 def pais():
   return random.choice(paises)
